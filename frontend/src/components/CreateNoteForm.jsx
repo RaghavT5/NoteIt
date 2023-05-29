@@ -80,7 +80,7 @@ function CreateNoteForm(props) {
         {isExpanded && (
           <button
             onClick={submitNote}
-            className="bg-yellow-400 rounded-full p-2 text-white float-right mr-10 my-5 shadow-md hover:bg-yellow-300 duration-300 transform hover:scale-110"
+            className="bg-yellow-400 rounded-full p-2 text-white float-right mr-10 my-5 shadow-md hover:bg-yellow-300 duration-300 hover:scale-110"
           >
             <HiPlus size={30} className="hover:scale-110 duration-300" />
           </button>

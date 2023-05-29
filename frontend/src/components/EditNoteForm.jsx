@@ -77,14 +77,14 @@ function EditNoteForm(props) {
             <button
               type="submit"
               onClick={handleSubmit}
-              className="bg-yellow-400 mr-3 rounded-full p-2 text-white shadow-md hover:bg-yellow-300 duration-300 transform hover:scale-110"
+              className="bg-yellow-400 mr-3 rounded-full p-2 text-white shadow-md hover:bg-yellow-300 duration-300 hover:scale-110"
             >
               <FiCheck size={30} className="hover:scale-110 duration-300" />
             </button>
             <button
               type="button"
               onClick={handleCancel}
-              className="bg-red-400 rounded-full p-2 ml-2 text-white shadow-md hover:bg-red-300 duration-300 transform hover:scale-110"
+              className="bg-red-400 rounded-full p-2 ml-2 text-white shadow-md hover:bg-red-300 duration-300 hover:scale-110"
             >
               <HiX size={30} className="hover:scale-110 duration-300" />
             </button>

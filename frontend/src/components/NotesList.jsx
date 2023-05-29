@@ -1,8 +1,5 @@
 import React from "react";
 import Note from "./Note";
-import axios from "axios";
-
-axios.defaults.baseURL = "http://localhost:5000";
 
 const NotesList = ({ notes, onDelete, onEdit }) => {
   // Reverse the notes array to display the latest note first
